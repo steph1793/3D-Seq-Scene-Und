@@ -22,5 +22,5 @@ To prepare the dataset, each frame is mapped into a real world 3D point cloud us
 
 [ image graphical model ]
 
-The image above represents the graphical model of our Deep Learning model. $x_t$ Each frame of the scene is encoded into a latent representation, from which the semantic labelling is decoded. But since we are processing videos, there is a time dependency which I modelled trhough the latent representations, thus the sequential latent representation Learning. 
+The image above represents the graphical model of our Deep Learning model. $`x_t`$ Each frame of the scene is encoded into a latent representation, from which the semantic labelling is decoded. But since we are processing videos, there is a time dependency which I modelled trhough the latent representations, thus the sequential latent representation Learning. 
 From this graphical and some prior insights, the objective function to be optimize (ELBO) can be derived.

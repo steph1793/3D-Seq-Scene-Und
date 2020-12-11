@@ -2,7 +2,7 @@
 
 ## Indoor Scene Understanding through Sequential Latent representation
 
-In this project, I am investigating semantic segmentation of 3D indoor scenes in video streams. Inspired by the work by ... , in ..., I am using sequential latent representation to capture the time dependency in the videos. The work done here by the way re-uses some code from [link] for 3D semantic segmentation and [link] for data processing.
+In this project, I am investigating semantic segmentation of 3D indoor scenes in video streams. Inspired by the work of Jianyu Chen (@cjy1992), Zhuo Xu and Masayoshi Tomizuka , in [End-to-end Autonomous Driving Perception with Sequential Latent Representation Learning](https://arxiv.org/abs/2003.12464), I am using sequential latent representation to capture the time dependency in the videos. The work done here by the way re-uses some code from [Point-Voxel CNN for Efficient 3D Deep Learning](https://github.com/mit-han-lab/pvcnn) for 3D semantic segmentation and [SceneNet](https://github.com/jmccormac/pySceneNetRGBD) for data processing.
 
 ## Dataset
 I used SceneNet dataset (link) which is made of RGB-D frames of different indoor scenes. This a very realistic synthetic dataset with a realistic camera used to film synthetic rooms.

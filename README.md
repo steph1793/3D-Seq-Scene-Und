@@ -5,7 +5,7 @@
 In this project, I am investigating semantic segmentation of 3D indoor scenes in video streams. Inspired by the work of Jianyu Chen (@cjy1992), Zhuo Xu and Masayoshi Tomizuka , in [End-to-end Autonomous Driving Perception with Sequential Latent Representation Learning](https://arxiv.org/abs/2003.12464), I am using sequential latent representation to capture the time dependency in the videos. The work done here by the way re-uses some code from [Point-Voxel CNN for Efficient 3D Deep Learning](https://github.com/mit-han-lab/pvcnn) for 3D semantic segmentation and [SceneNet](https://github.com/jmccormac/pySceneNetRGBD) for data processing.
 
 ## Dataset
-I used SceneNet dataset (link) which is made of RGB-D frames of different indoor scenes. This a very realistic synthetic dataset with a realistic camera used to film synthetic rooms.
+I used [SceneNet dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html) which is made of RGB-D frames of different indoor scenes. This a very realistic synthetic dataset with a realistic camera used to film synthetic rooms.
 The entire dataset has a total of 15,000 trajectories videos with about 5 million RGB-D frames. Each frame contains :
 * A photo of a given scene
 * A depth map
@@ -31,7 +31,7 @@ From this graphical model and some prior insights, the objective function to be 
 * A decoder
 
 
-For the encoder and the decoder, I used a benchmark method for 3D data semantic segmentation : PVCNN [link]. This method outperformed numerous benchmark methods (PointNet++, PointCNN etc) and has proven efficient in terms of memory footprint, and computation time complexity.
+For the encoder and the decoder, I used a benchmark method for 3D data semantic segmentation : [PVCNN](https://arxiv.org/abs/1907.03739). This method outperformed numerous benchmark methods (PointNet++, PointCNN etc) and has proven efficient in terms of memory footprint, and computation time complexity.
 
 [PVCNN] image
 

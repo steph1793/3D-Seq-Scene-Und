@@ -20,7 +20,9 @@ To prepare the dataset, each frame is mapped into a real world 3D point cloud us
 
 ## Model
 <br>
-<img align="center" src="https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/pgm.png" width="40%">
+<p align="center">
+<img src="https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/pgm.png" width="40%">
+</p>
 <br>
 
 The image above represents the graphical model of our Deep Learning model. But since we are processing videos, there is a time dependency which I modelled trhough the latent representations, thus the sequential latent representation Learning. Each frame of the scene is encoded into a latent representation, from which the semantic labelling is decoded. `x_t` = the incoming video frames, `z_t` the latent representations, `y_t` the semantic labelling, `a_t` the actions that lead to each frame (the camera motion for example).

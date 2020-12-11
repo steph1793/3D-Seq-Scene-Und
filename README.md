@@ -2,7 +2,7 @@
 
 ## Indoor Scene Understanding through Sequential Latent representation
 
-In this project, I am investigating semantic segmentation of 3D indoor scenes in video streams. Inspired by the work by ... , in ..., I am using sequential latent representation to capture the time dependency in the videos.
+In this project, I am investigating semantic segmentation of 3D indoor scenes in video streams. Inspired by the work by ... , in ..., I am using sequential latent representation to capture the time dependency in the videos. The work done here by the way re-uses some code from [link] for 3D semantic segmentation and [link] for data processing.
 
 ## Dataset
 I used SceneNet dataset (link) which is made of RGB-D frames of different indoor scenes. This a very realistic synthetic dataset with a realistic camera used to film synthetic rooms.
@@ -22,4 +22,5 @@ To prepare the dataset, each frame is mapped into a real world 3D point cloud us
 
 [ image graphical model ]
 
-In the image below, is represented the graphical model of our Deep Learning model. Each frame of the scene is encoded into a latent representation, from which the semantic labelling is decoded. But since we are processing videos, there is a time dependency which I modelled trhough the latent representations, thus the sequential latent representation Learning.
+The image above represents the graphical model of our Deep Learning model. $x_t$ Each frame of the scene is encoded into a latent representation, from which the semantic labelling is decoded. But since we are processing videos, there is a time dependency which I modelled trhough the latent representations, thus the sequential latent representation Learning. 
+From this graphical and some prior insights, the objective function to be optimize (ELBO) can be derived.

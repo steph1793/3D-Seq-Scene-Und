@@ -17,7 +17,7 @@ To prepare the dataset, each frame is mapped into a real world 3D point cloud us
 
 <br>
 <p align="center">
-![dataset image](https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/dataset.png)
+<img src="https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/dataset.png">
 </p>
 <br>
 
@@ -44,7 +44,7 @@ For the encoder and the decoder, I used a benchmark method for 3D data semantic 
 
 <br>
 <p align="center">
-![PVCNN](https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/pvcnn.jpg)
+<img src="https://raw.githubusercontent.com/steph1793/3D-Seq-Scene-Und/master/docs/pvcnn.jpg">
 </p>
 <br>
 
